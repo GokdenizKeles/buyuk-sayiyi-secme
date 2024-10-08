@@ -1,0 +1,5 @@
+let birinciSayi = (Number) (prompt ("birinci sayı") )
+let ikinciSayi= (Number) (prompt ("ikinci sayı") )
+let ucuncuSayi = (Number) (prompt ("üçüncü sayı") )
+let userChoice = Math.max(birinciSayi , ikinciSayi , ucuncuSayi)
+  alert ("en büyük sayınız budur " + userChoice)
